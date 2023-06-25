@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'play_regular';
+    src: url('../fonts/Play-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'poppins_regular';
+    src: url('../fonts/Poppins-Regular.ttf');
+  }
+  body{
+    font-family:  'poppins_regular', sans-serif !important;  
+    font-size: small;
+  }
+  hr.dotted {
+    border-top: 2px dotted #999;
+}
+  .alert-ajax{
+    position: absolute !important;
+    width: 100%;
+  }
+
+  .preview{
+    width: 70px;
+    height:70px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    padding: 3px;
+}
+.removePic {
+  position: absolute;
+  cursor: pointer;
+  font-size: 20px;
+  margin: -10px 0px 0px -3px;
+}
+.hideBox{
+  display: none;
+}
+
+canvas {
+  border: 1px solid grey;
+  width: 900px;
+
+}
+
+.inputSize{
+  width: 300px;
+}
+.bg-side{
+  background-color: #ffffff !important;
+  color: #231f20 !important;
+}
+.bg-main{
+  background-color:#f4f6f9 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;
+} 
+.menu-active,.menu-active p,.menu-active i{
+  background-color: #231f20 !important;
+  color: white !important;
+}
+.text-dark{
+  color: black !important;
+}
+.nav-link{
+  color: black !important;
+}
+.nav-link:hover {
+color: black !important;
+} 
+.nav-link:active {
+color: black !important;
+} 
+.default-color{
+  color: black !important;
+}
+input[readonly] {
+  background-color: white !important;
+}
+.details{
+  width: 100% !important;
+}
+.bg-main {
+  background-color: white !important;
+}
+.content-wrapper {
+  background-color: white !important;
+}
+.buttons{
+  background-color: black;
+  color: white;
+}
+.buttons:hover{
+  background-color: black;
+  color: white;
+}
+.active{
+  background-color: #6a6868 !important;
+  color: white !important;
+}
+.active:hover{
+  background-color: #6a6868 !important;
+  color: white !important;
+}
